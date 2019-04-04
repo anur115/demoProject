@@ -29,7 +29,7 @@ public class OrderController {
 		//return solrOrderRepository.findByOrderid(orderid);
 		Order order = new Order();
 		order.setOrderid(new Long("1"));
-		order.setCustomerName("Tejinder111111");
+		order.setCustomerName("Anur");
 		order.setOrderDescription("First Order");
 		order.setOrderName("Sample Order Name");
 		order.setProductName("Sample Product Name");
